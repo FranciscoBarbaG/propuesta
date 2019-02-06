@@ -343,6 +343,312 @@
 | **Entrega**     | v1             |
 
 
+| **R39**     | **Añadir una categoria**         |
+| --------------: | :------------------- |
+| **Descripción** |              |
+| **Prioridad**   |            |
+| **Tipo**        |                 |
+| **Complejidad** |          |
+| **Entrega**     |              |
+
+
+| **R40**     | **Modificar una categoria**         |
+| --------------: | :------------------- |
+| **Descripción** |              |
+| **Prioridad**   |            |
+| **Tipo**        |                 |
+| **Complejidad** |          |
+| **Entrega**     |              |
+
+
+| **R41**     | **Añadir un participante**         |
+| --------------: | :------------------- |
+| **Descripción** |              |
+| **Prioridad**   |            |
+| **Tipo**        |                 |
+| **Complejidad** |          |
+| **Entrega**     |              |
+
+
+| **R42**     | **Modificar un participante**         |
+| --------------: | :------------------- |
+| **Descripción** |              |
+| **Prioridad**   |            |
+| **Tipo**        |                 |
+| **Complejidad** |          |
+| **Entrega**     |              |
+
+
+| **R43**     | **Añadir una serie**         |
+| --------------: | :------------------- |
+| **Descripción** |              |
+| **Prioridad**   |            |
+| **Tipo**        |                 |
+| **Complejidad** |          |
+| **Entrega**     |              |
+
+
+| **R44**     | **Modificar una serie**         |
+| --------------: | :------------------- |
+| **Descripción** |              |
+| **Prioridad**   |            |
+| **Tipo**        |                 |
+| **Complejidad** |          |
+| **Entrega**     |              |
+
+
+| **R45**     | **Añadir un capitulo a una serie**         |
+| --------------: | :------------------- |
+| **Descripción** |              |
+| **Prioridad**   |            |
+| **Tipo**        |                 |
+| **Complejidad** |          |
+| **Entrega**     |              |
+
+
+| **R46**     | **Modificar un capitulo de una serie**         |
+| --------------: | :------------------- |
+| **Descripción** |              |
+| **Prioridad**   |            |
+| **Tipo**        |                 |
+| **Complejidad** |          |
+| **Entrega**     |              |
+
+
+| **R47**     | **Añadir una pelicula**         |
+| --------------: | :------------------- |
+| **Descripción** |              |
+| **Prioridad**   |            |
+| **Tipo**        |                 |
+| **Complejidad** |          |
+| **Entrega**     |              |
+
+
+| **R48**     | **Añadir un participante a una serie**         |
+| --------------: | :------------------- |
+| **Descripción** |              |
+| **Prioridad**   |            |
+| **Tipo**        |                 |
+| **Complejidad** |          |
+| **Entrega**     |              |
+
+
+| **R49**     | **Añadir un participante a una pelicula**         |
+| --------------: | :------------------- |
+| **Descripción** |              |
+| **Prioridad**   |            |
+| **Tipo**        |                 |
+| **Complejidad** |          |
+| **Entrega**     |              |
+
+
+| **R50**     | **Eliminar un participante de una serie**         |
+| --------------: | :------------------- |
+| **Descripción** |              |
+| **Prioridad**   |            |
+| **Tipo**        |                 |
+| **Complejidad** |          |
+| **Entrega**     |              |
+
+
+| **R51**     | **Eliminar un participante de una pelicula**         |
+| --------------: | :------------------- |
+| **Descripción** |              |
+| **Prioridad**   |            |
+| **Tipo**        |                 |
+| **Complejidad** |          |
+| **Entrega**     |              |
+
+
+| **R52**     | **Eliminar a un usuario**         |
+| --------------: | :------------------- |
+| **Descripción** |              |
+| **Prioridad**   |            |
+| **Tipo**        |                 |
+| **Complejidad** |          |
+| **Entrega**     |              |
+
+
+| **R53**     | **Loguearse**         |
+| --------------: | :------------------- |
+| **Descripción** |              |
+| **Prioridad**   |            |
+| **Tipo**        |                 |
+| **Complejidad** |          |
+| **Entrega**     |              |
+
+
+| **R54**     | **Desloguearse**         |
+| --------------: | :------------------- |
+| **Descripción** |              |
+| **Prioridad**   |            |
+| **Tipo**        |                 |
+| **Complejidad** |          |
+| **Entrega**     |              |
+
+
+| **R55**     | **Buscar una serie**         |
+| --------------: | :------------------- |
+| **Descripción** |              |
+| **Prioridad**   |            |
+| **Tipo**        |                 |
+| **Complejidad** |          |
+| **Entrega**     |              |
+
+
+| **R56**     | **Buscar una pelicula**         |
+| --------------: | :------------------- |
+| **Descripción** |              |
+| **Prioridad**   |            |
+| **Tipo**        |                 |
+| **Complejidad** |          |
+| **Entrega**     |              |
+
+
+| **R57**     | **Ver una serie**         |
+| --------------: | :------------------- |
+| **Descripción** |              |
+| **Prioridad**   |            |
+| **Tipo**        |                 |
+| **Complejidad** |          |
+| **Entrega**     |              |
+
+
+| **R58**     | **Marcar como vista una serie**         |
+| --------------: | :------------------- |
+| **Descripción** |              |
+| **Prioridad**   |            |
+| **Tipo**        |                 |
+| **Complejidad** |          |
+| **Entrega**     |              |
+
+
+| **R59**     | **Valorar una serie**         |
+| --------------: | :------------------- |
+| **Descripción** |              |
+| **Prioridad**   |            |
+| **Tipo**        |                 |
+| **Complejidad** |          |
+| **Entrega**     |              |
+
+
+| **R60**     | **Ver un capitulo de una serie**         |
+| --------------: | :------------------- |
+| **Descripción** |              |
+| **Prioridad**   |            |
+| **Tipo**        |                 |
+| **Complejidad** |          |
+| **Entrega**     |              |
+
+
+| **R61**     | **Marcar como visto un capitulo de una serie**         |
+| --------------: | :------------------- |
+| **Descripción** |              |
+| **Prioridad**   |            |
+| **Tipo**        |                 |
+| **Complejidad** |          |
+| **Entrega**     |              |
+
+
+| **R62**     | **Valorar un capitulo de una serie**         |
+| --------------: | :------------------- |
+| **Descripción** |              |
+| **Prioridad**   |            |
+| **Tipo**        |                 |
+| **Complejidad** |          |
+| **Entrega**     |              |
+
+
+| **R63**     | **Abandonar una serie**         |
+| --------------: | :------------------- |
+| **Descripción** |              |
+| **Prioridad**   |            |
+| **Tipo**        |                 |
+| **Complejidad** |          |
+| **Entrega**     |              |
+
+
+| **R64**     | **Ver una pelicula**         |
+| --------------: | :------------------- |
+| **Descripción** |              |
+| **Prioridad**   |            |
+| **Tipo**        |                 |
+| **Complejidad** |          |
+| **Entrega**     |              |
+
+
+| **R65**     | **Marcar como vista una pelicula**         |
+| --------------: | :------------------- |
+| **Descripción** |              |
+| **Prioridad**   |            |
+| **Tipo**        |                 |
+| **Complejidad** |          |
+| **Entrega**     |              |
+
+
+| **R66**     | **Valorar una pelicula**         |
+| --------------: | :------------------- |
+| **Descripción** |              |
+| **Prioridad**   |            |
+| **Tipo**        |                 |
+| **Complejidad** |          |
+| **Entrega**     |              |
+
+
+| **R67**     | **Abandonar una pelicula**         |
+| --------------: | :------------------- |
+| **Descripción** |              |
+| **Prioridad**   |            |
+| **Tipo**        |                 |
+| **Complejidad** |          |
+| **Entrega**     |              |
+
+
+| **R68**     | **Registrarse como usuario sin invitación**         |
+| --------------: | :------------------- |
+| **Descripción** |              |
+| **Prioridad**   |            |
+| **Tipo**        |                 |
+| **Complejidad** |          |
+| **Entrega**     |              |
+
+
+| **R69**     | **Implementar restricciones a usuarios registrados**         |
+| --------------: | :------------------- |
+| **Descripción** |              |
+| **Prioridad**   |            |
+| **Tipo**        |                 |
+| **Complejidad** |          |
+| **Entrega**     |              |
+
+
+| **R70**     | **Implementar series ya vistas a usuarios registrados**         |
+| --------------: | :------------------- |
+| **Descripción** |              |
+| **Prioridad**   |            |
+| **Tipo**        |                 |
+| **Complejidad** |          |
+| **Entrega**     |              |
+
+
+| **R71**     | **Implementar capitulos ya vistos a usuarios registrados**         |
+| --------------: | :------------------- |
+| **Descripción** |              |
+| **Prioridad**   |            |
+| **Tipo**        |                 |
+| **Complejidad** |          |
+| **Entrega**     |              |
+
+
+| **R72**     | **Implementar peliculas ya vistas a usuarios registrados**         |
+| --------------: | :------------------- |
+| **Descripción** |              |
+| **Prioridad**   |            |
+| **Tipo**        |                 |
+| **Complejidad** |          |
+| **Entrega**     |              |
+
+
 
 ## Cuadro resumen
 
@@ -386,3 +692,37 @@
 | (**R36**) Varios navegadores | Mínimo | Técnico | Fácil | v1 |
 | (**R37**) Despliegue en un Host | Mínimo | Técnico | Fácil | v1 |
 | (**R38**) Despliegue en un servidor local | Mínimo | Técnico | Fácil | v1 |
+| (**R39**) Añadir una categoria |  |  |  |  |
+| (**R40**) Modificar una categoria |  |  |  |  |
+| (**R41**) Añadir un participante |  |  |  |  |
+| (**R42**) Modificar un participante |  |  |  |  |
+| (**R43**) Añadir una serie |  |  |  |  |
+| (**R44**) Modificar una serie |  |  |  |  |
+| (**R45**) Añadir un capitulo a una serie |  |  |  |  |
+| (**R46**) Modificar un capitulo de una serie |  |  |  |  |
+| (**R47**) Añadir una pelicula |  |  |  |  |
+| (**R48**) Añadir un participante a una serie |  |  |  |  |
+| (**R49**) Añadir un participante a una pelicula |  |  |  |  |
+| (**R50**) Eliminar un participante de una serie |  |  |  |  |
+| (**R51**) Eliminar un participante de una pelicula |  |  |  |  |
+| (**R52**) Eliminar a un usuario |  |  |  |  |
+| (**R53**) Loguearse |  |  |  |  |
+| (**R54**) Desloguearse |  |  |  |  |
+| (**R55**) Buscar una serie |  |  |  |  |
+| (**R56**) Buscar una pelicula |  |  |  |  |
+| (**R57**) Ver una serie |  |  |  |  |
+| (**R58**) Marcar como vista una serie |  |  |  |  |
+| (**R59**) Valorar una serie |  |  |  |  |
+| (**R60**) Ver un capitulo de una serie |  |  |  |  |
+| (**R61**) Marcar como visto un capitulo de una serie |  |  |  |  |
+| (**R62**) Valorar un capitulo de una serie |  |  |  |  |
+| (**R63**) Abandonar una serie |  |  |  |  |
+| (**R64**) Ver una pelicula |  |  |  |  |
+| (**R65**) Marcar como vista una pelicula |  |  |  |  |
+| (**R66**) Valorar una pelicula |  |  |  |  |
+| (**R67**) Abandonar una pelicula |  |  |  |  |
+| (**R68**) Registrarse como usuario sin invitación |  |  |  |  |
+| (**R69**) Implementar restricciones a usuarios registrados |  |  |  |  |
+| (**R70**) Implementar series ya vistas a usuarios registrados |  |  |  |  |
+| (**R71**) Implementar capitulos ya vistos a usuarios registrados |  |  |  |  |
+| (**R72**) Implementar peliculas ya vistas a usuarios registrados |  |  |  |  |
