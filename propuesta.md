@@ -17,9 +17,9 @@ La funcionalidad principal del proyecto será la posibilidad a los usuarios logu
 * Objetivo: "gestionar las películas y series a la disposición de los usuarios, así como la visualizacion de las peliculas/series de los mismos".
 * Casos de uso:
 
-    · Usuarios: "crear un usuario sin invitacion", "buscar una serie por diferentes parametros (categoria, titulo...)", "ver una serie", "valorar una serie", "marcar una serie como vista", "abandonar una serie", "ver un capitulo de una serie", "valorar el capitulo de una serie", "marcar un capitulo de una serie como visto", "buscar una pelicula por diferentes parametros (categoria, titulo...)", "ver una pelicula", "valorar una pelicula", "abandonar una pelicula", "marcar una pelicula como vista".
+    · Usuarios: "registrarse", "buscar una serie por diferentes parametros (categoria, titulo...)", "ver una serie", "valorar una serie", "marcar una serie como vista", "abandonar una serie", "ver un capitulo de una serie", "valorar el capitulo de una serie", "marcar un capitulo de una serie como visto", "buscar una pelicula por diferentes parametros (categoria, titulo...)", "ver una pelicula", "valorar una pelicula", "abandonar una pelicula", "marcar una pelicula como vista".
 
-    · Administrador: "añadir una categoria", "modificar una categoria", "añadir un participante", "modificar un participante", "añadir una nueva serie", "modificar una serie", "añadir un capitulo a una serie", "modificar el capitulo de una serie", "añadir una pelicula", "modificar una pelicula", "añadir un participante a una serie", "añadir un participante a una pelicula",
+    · Administrador: "añadir una categoria", "modificar una categoria", "eliminar una categoria", "añadir un participante", "modificar un participante", "borrar un participante", "añadir una nueva serie", "modificar una serie", "borrar una serie", "añadir un capitulo a una serie", "modificar el capitulo de una serie", "borrar el capitulo de una serie", "añadir una pelicula", "modificar una pelicula", "borrar una pelicula", "añadir un participante a una serie", "quitar un participante de una serie", "añadir un participante a una pelicula", "quitar un participante de una pelicula",
     "eliminar un usuario".
 
     · Ambos: "loguearse", "desloguearse".
