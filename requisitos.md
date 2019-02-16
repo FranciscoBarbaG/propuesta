@@ -347,7 +347,7 @@
 | --------------: | :------------------- |
 | **Descripción** | Crear la base de datos y los usuarios que atacaran a la base de datos.             |
 | **Prioridad**   | Importante           |
-| **Tipo**        | Técnico                |
+| **Tipo**        | Información                |
 | **Complejidad** | Fácil         |
 | **Entrega**     | v1             |
 
@@ -373,7 +373,7 @@
 | **R42**     | **Eliminar una categoria**         |
 | --------------: | :------------------- |
 | **Descripción** | La categoria a eliminar no podrá estar vinculada a ninguna pelicula ni a ninguna serie para poder ser eliminada.             |
-| **Prioridad**   | Mínimo           |
+| **Prioridad**   | Importante           |
 | **Tipo**        | Funcional                |
 | **Complejidad** | Media         |
 | **Entrega**     | v1             |
@@ -400,7 +400,7 @@
 | **R45**     | **Eliminar un participante**         |
 | --------------: | :------------------- |
 | **Descripción** | El participante a eliminar no podrá estar vinculado a ninguna pelicula ni a ninguna serie para poder ser eliminado.             |
-| **Prioridad**   | Mínimo           |
+| **Prioridad**   | Importante           |
 | **Tipo**        | Funcional                |
 | **Complejidad** | Media         |
 | **Entrega**     | v1             |
@@ -427,7 +427,7 @@
 | **R48**     | **Eliminar una serie**         |
 | --------------: | :------------------- |
 | **Descripción** | Eliminar una serie.             |
-| **Prioridad**   | Mínimo           |
+| **Prioridad**   | Importante           |
 | **Tipo**        | Funcional                |
 | **Complejidad** | Fácil         |
 | **Entrega**     | v1             |
@@ -454,7 +454,7 @@
 | **R51**     | **Eliminar un capitulo de una serie**         |
 | --------------: | :------------------- |
 | **Descripción** | Eliminar un capitulo de una serie.             |
-| **Prioridad**   | Mínimo           |
+| **Prioridad**   | Importante           |
 | **Tipo**        | Funcional                |
 | **Complejidad** | Fácil         |
 | **Entrega**     | v1             |
@@ -481,7 +481,7 @@
 | **R54**     | **Eliminar una pelicula**         |
 | --------------: | :------------------- |
 | **Descripción** | Eliminar una pelicula.             |
-| **Prioridad**   | Mínimo           |
+| **Prioridad**   | Importante           |
 | **Tipo**        | Funcional                |
 | **Complejidad** | Fácil         |
 | **Entrega**     | v1             |
@@ -508,7 +508,7 @@
 | **R57**     | **Eliminar un participante de una serie**         |
 | --------------: | :------------------- |
 | **Descripción** | Eliminar un participante de una serie.             |
-| **Prioridad**   | Mínimo           |
+| **Prioridad**   | Importante           |
 | **Tipo**        | Funcional                |
 | **Complejidad** | Fácil         |
 | **Entrega**     | v1             |
@@ -517,7 +517,7 @@
 | **R58**     | **Eliminar un participante de una pelicula**         |
 | --------------: | :------------------- |
 | **Descripción** | Eliminar un participante de una pelicula.             |
-| **Prioridad**   | Mínimo           |
+| **Prioridad**   | Importante           |
 | **Tipo**        | Funcional                |
 | **Complejidad** | Fácil         |
 | **Entrega**     | v1             |
@@ -535,7 +535,7 @@
 | **R60**     | **Ordenar series**         |
 | --------------: | :------------------- |
 | **Descripción** | Ordenar una serie por diferentes parametros, como el titulo, año de publicación, etc.             |
-| **Prioridad**   | Mínimo           |
+| **Prioridad**   | Importante           |
 | **Tipo**        | Funcional                |
 | **Complejidad** | Media         |
 | **Entrega**     | v1             |
@@ -553,7 +553,7 @@
 | **R62**     | **Ordenar peliculas**         |
 | --------------: | :------------------- |
 | **Descripción** | Ordenar una pelicula por diferentes parametros, como el titulo, año de publicación, etc.             |
-| **Prioridad**   | Mínimo           |
+| **Prioridad**   | Importante           |
 | **Tipo**        | Funcional                |
 | **Complejidad** | Media         |
 | **Entrega**     | v1             |
@@ -571,7 +571,7 @@
 | **R64**     | **Eliminar a un usuario**         |
 | --------------: | :------------------- |
 | **Descripción** | Eliminar a un usuario.             |
-| **Prioridad**   | Mínimo           |
+| **Prioridad**   | Importante           |
 | **Tipo**        | Funcional                |
 | **Complejidad** | Fácil         |
 | **Entrega**     | v1             |
@@ -604,7 +604,115 @@
 | **Entrega**     | v1             |
 
 
-| **R68**     | **Ver una serie**         |
+| **R68**     | **Seguir a un usuario**         |
+| --------------: | :------------------- |
+| **Descripción** | Seguir a un usuario.             |
+| **Prioridad**   | Importante           |
+| **Tipo**        | Funcional                |
+| **Complejidad** | Media         |
+| **Entrega**     | v2             |
+
+
+| **R69**     | **Ser seguido por otro usuario**         |
+| --------------: | :------------------- |
+| **Descripción** | Ser seguido por otro usuario.             |
+| **Prioridad**   | Importante           |
+| **Tipo**        | Funcional                |
+| **Complejidad** | Media         |
+| **Entrega**     | v2             |
+
+
+| **R70**     | **Dejar de seguir a un usuario**         |
+| --------------: | :------------------- |
+| **Descripción** | Dejar de seguir a un usuario.             |
+| **Prioridad**   | Importante           |
+| **Tipo**        | Funcional                |
+| **Complejidad** | Media         |
+| **Entrega**     | v2             |
+
+
+| **R71**     | **Bloquear a un usuario**         |
+| --------------: | :------------------- |
+| **Descripción** | Bloquear a un usuario, por lo que el usuario bloqueado no podrá seguir tu cuenta ni entrar en tu perfil, pero si ver tus publicaciones publicas.             |
+| **Prioridad**   | Importante           |
+| **Tipo**        | Funcional                |
+| **Complejidad** | Difícil         |
+| **Entrega**     | v2             |
+
+
+| **R72**     | **Ver valoraciones recientes de quien sigues**         |
+| --------------: | :------------------- |
+| **Descripción** | Ver valoraciones recientes de quien sigues en el perfil de dicho usuario.             |
+| **Prioridad**   | Importante           |
+| **Tipo**        | Funcional                |
+| **Complejidad** | Media         |
+| **Entrega**     | v2             |
+
+
+| **R73**     | **Comentar valoraciones de otro usuario**         |
+| --------------: | :------------------- |
+| **Descripción** | Comentar valoraciones de otro usuario, si te tiene bloqueado no podrás comentar las valoraciones de ese usuario.             |
+| **Prioridad**   | Importante           |
+| **Tipo**        | Funcional                |
+| **Complejidad** | Media         |
+| **Entrega**     | v2             |
+
+
+| **R74**     | **Recomendar una valoración**         |
+| --------------: | :------------------- |
+| **Descripción** | Recomendar una valoración, saliendo las mas valoradas en las “Valoraciones Calientes”.             |
+| **Prioridad**   | Importante           |
+| **Tipo**        | Funcional                |
+| **Complejidad** | Media         |
+| **Entrega**     | v2             |
+
+
+| **R75**     | **Criticar una valoración**         |
+| --------------: | :------------------- |
+| **Descripción** | Criticar una valoración, una vez se llega a 500 criticas, la valoración se borra en el siguiente mantenimiento.             |
+| **Prioridad**   | Importante           |
+| **Tipo**        | Funcional                |
+| **Complejidad** | Media         |
+| **Entrega**     | v2             |
+
+
+| **R76**     | **Ver la pagina de valoraciones publicas**         |
+| --------------: | :------------------- |
+| **Descripción** | Ver la pagina de valoraciones publicas, la cual contrendra todas las valoraciones publicas.             |
+| **Prioridad**   | Importante           |
+| **Tipo**        | Funcional                |
+| **Complejidad** | Media         |
+| **Entrega**     | v2             |
+
+
+| **R77**     | **Buscar una valoración por diferentes parametros (creador, pelicula, serie…)**         |
+| --------------: | :------------------- |
+| **Descripción** | Buscar una valoración por diferentes parametros (creador, pelicula, serie…).             |
+| **Prioridad**   | Importante           |
+| **Tipo**        | Funcional                |
+| **Complejidad** | Media         |
+| **Entrega**     | v2             |
+
+
+| **R78**     | **Ordenar valoraciones por diferentes parametros (likes, fecha de creación, pelicula, etc.)**         |
+| --------------: | :------------------- |
+| **Descripción** | Ordenar valoraciones por diferentes parametros (likes, fecha de creación, pelicula, etc …).             |
+| **Prioridad**   | Importante           |
+| **Tipo**        | Funcional                |
+| **Complejidad** | Media         |
+| **Entrega**     | v2             |
+
+
+| **R79**     | **Marcarse objetivos**         |
+| --------------: | :------------------- |
+| **Descripción** | Marcarse objetivos, como ver una pelicula antes de X fecha, o a ver una pelicula cuando se estrene, etc …             |
+| **Prioridad**   | Importante           |
+| **Tipo**        | Funcional                |
+| **Complejidad** | Media         |
+| **Entrega**     | v2             |
+
+
+| **R80**     | **Descargar una serie**         |
 | --------------: | :------------------- |
 | **Descripción** | Vista en detalle de una serie, donde se mostraran una pequeña sinopsis, todos los capitulos en orden de lanzamiento, los participantes y la categoria de la serie que se esté visualizando.             |
 | **Prioridad**   | Importante           |
@@ -613,7 +721,7 @@
 | **Entrega**     | v2             |
 
 
-| **R69**     | **Ver una pelicula**         |
+| **R81**     | **Descargar una pelicula**         |
 | --------------: | :------------------- |
 | **Descripción** | Vista en detalle una pelicula, donde se mostraran una pequeña sinopsis, los participantes y la categoria de la pelicula que se esté visualizando.             |
 | **Prioridad**   | Importante           |
@@ -622,7 +730,7 @@
 | **Entrega**     | v2             |
 
 
-| **R70**     | **Ver un capitulo de una serie**         |
+| **R82**     | **Descargar un capitulo de una serie**         |
 | --------------: | :------------------- |
 | **Descripción** | Vista en detalle un capitulo de una serie, donde se mostraran una pequeña sinopsis, los participantes y la categoria de la serie que se esté visualizando.             |
 | **Prioridad**   | Importante           |
@@ -631,79 +739,79 @@
 | **Entrega**     | v2             |
 
 
-| **R71**     | **Marcar como vista una serie**         |
+| **R83**     | **Marcar como vista una serie**         |
 | --------------: | :------------------- |
 | **Descripción** | Marcar como vista una serie.             |
-| **Prioridad**   | Mínimo           |
+| **Prioridad**   | Importante           |
 | **Tipo**        | Funcional                |
 | **Complejidad** | Media         |
 | **Entrega**     | v2             |
 
 
-| **R72**     | **Marcar como vista una pelicula**         |
+| **R84**     | **Marcar como vista una pelicula**         |
 | --------------: | :------------------- |
 | **Descripción** | Marcar como vista una pelicula.             |
-| **Prioridad**   | Mínimo           |
+| **Prioridad**   | Importante           |
 | **Tipo**        | Funcional                |
 | **Complejidad** | Media         |
 | **Entrega**     | v2             |
 
 
-| **R73**     | **Marcar como visto un capitulo de una serie**         |
+| **R85**     | **Marcar como visto un capitulo de una serie**         |
 | --------------: | :------------------- |
 | **Descripción** | Marcar como visto un capitulo de una serie.             |
-| **Prioridad**   | Mínimo           |
+| **Prioridad**   | Importante           |
 | **Tipo**        | Funcional                |
 | **Complejidad** | Media         |
 | **Entrega**     | v2             |
 
 
-| **R74**     | **Valorar una serie**         |
+| **R86**     | **Valorar una serie**         |
 | --------------: | :------------------- |
 | **Descripción** | Valorar una serie con un numero del 1 al 5, pudiendo agregar un comentario si lo desea el usuario.             |
-| **Prioridad**   | Mínimo           |
+| **Prioridad**   | Importante           |
 | **Tipo**        | Funcional                |
 | **Complejidad** | Media         |
 | **Entrega**     | v2             |
 
 
-| **R75**     | **Valorar un capitulo de una serie**         |
+| **R87**     | **Valorar un capitulo de una serie**         |
 | --------------: | :------------------- |
 | **Descripción** | Valorar un capitulo de una serie con un numero del 1 al 5, pudiendo agregar un comentario si lo desea el usuario.             |
-| **Prioridad**   | Mínimo           |
+| **Prioridad**   | Importante           |
 | **Tipo**        | Funcional                |
 | **Complejidad** | Media         |
 | **Entrega**     | v2             |
 
 
-| **R76**     | **Valorar una pelicula**         |
+| **R88**     | **Valorar una pelicula**         |
 | --------------: | :------------------- |
 | **Descripción** | Valorar una pelicula con un numero del 1 al 5, pudiendo agregar un comentario si lo desea el usuario.             |
-| **Prioridad**   | Mínimo           |
+| **Prioridad**   | Importante           |
 | **Tipo**        | Funcional                |
 | **Complejidad** | Media         |
 | **Entrega**     | v2             |
 
 
-| **R77**     | **Abandonar una serie**         |
+| **R89**     | **Abandonar una serie**         |
 | --------------: | :------------------- |
 | **Descripción** | Marcar como abandonada una serie por cualquier motivo.             |
-| **Prioridad**   | Mínimo           |
+| **Prioridad**   | Importante           |
 | **Tipo**        | Funcional                |
 | **Complejidad** | Media         |
 | **Entrega**     | v2             |
 
 
-| **R78**     | **Abandonar una pelicula**         |
+| **R90**     | **Abandonar una pelicula**         |
 | --------------: | :------------------- |
 | **Descripción** | Marcar como abandonada una pelicula por cualquier motivo.             |
-| **Prioridad**   | Mínimo           |
+| **Prioridad**   | Importante           |
 | **Tipo**        | Funcional                |
 | **Complejidad** | Media         |
 | **Entrega**     | v2             |
 
 
-| **R79**     | **Implementar restricciones a usuarios registrados**         |
+| **R91**     | **Implementar restricciones a usuarios registrados**         |
 | --------------: | :------------------- |
 | **Descripción** | Los usuarios que no sean “admin” no podran modificar, borrar ni insertar nada con los controles del administrador.             |
 | **Prioridad**   | Importante           |
@@ -712,7 +820,7 @@
 | **Entrega**     | v2             |
 
 
-| **R80**     | **Implementar series ya vistas a usuarios registrados**         |
+| **R92**     | **Implementar series ya vistas a usuarios registrados**         |
 | --------------: | :------------------- |
 | **Descripción** | Implementa en las vistas que los usuarios vean con iconos y efectos las series ya vistas.             |
 | **Prioridad**   | Importante           |
@@ -721,7 +829,7 @@
 | **Entrega**     | v3             |
 
 
-| **R81**     | **Implementar capitulos de series ya vistas a usuarios registrados**         |
+| **R93**     | **Implementar capitulos de series ya vistas a usuarios registrados**         |
 | --------------: | :------------------- |
 | **Descripción** | Implementa en las vistas que los usuarios vean con iconos y efectos los capitulos de las series ya vistas.             |
 | **Prioridad**   | Importante           |
@@ -730,7 +838,7 @@
 | **Entrega**     | v3             |
 
 
-| **R82**     | **Implementar peliculas ya vistas a usuarios registrados**         |
+| **R94**     | **Implementar peliculas ya vistas a usuarios registrados**         |
 | --------------: | :------------------- |
 | **Descripción** | Implementa en las vistas que los usuarios vean con iconos y efectos las peliculas ya vistas.             |
 | **Prioridad**   | Importante           |
@@ -739,7 +847,7 @@
 | **Entrega**     | v3             |
 
 
-| **R83**     | **Implementar series abandonadas a usuarios registrados**         |
+| **R95**     | **Implementar series abandonadas a usuarios registrados**         |
 | --------------: | :------------------- |
 | **Descripción** | Implementa en las vistas que los usuarios vean con iconos y efectos las series abandonadas.             |
 | **Prioridad**   | Importante           |
@@ -748,43 +856,43 @@
 | **Entrega**     | v3             |
 
 
-| **R84**     | **Implementar capitulos de series abandonadas a usuarios registrados**         |
+| **R96**     | **Implementar capitulos de series abandonadas a usuarios registrados**         |
 | --------------: | :------------------- |
 | **Descripción** | Implementa en las vistas que los usuarios vean con iconos y efectos los capitulos de las series abandonadas.             |
-| **Prioridad**   | Mínimo           |
+| **Prioridad**   | Importante           |
 | **Tipo**        | Técnico                |
 | **Complejidad** | Difícil         |
 | **Entrega**     | v3             |
 
 
-| **R85**     | **Implementar peliculas abandonadas a usuarios registrados**         |
+| **R97**     | **Implementar peliculas abandonadas a usuarios registrados**         |
 | --------------: | :------------------- |
 | **Descripción** | Implementa en las vistas que los usuarios vean con iconos y efectos las peliculas abandonadas.             |
-| **Prioridad**   | Mínimo           |
+| **Prioridad**   | Importante           |
 | **Tipo**        | Técnico                |
 | **Complejidad** | Fácil         |
 | **Entrega**     | v3             |
 
 
-| **R86**     | **Implementar ordenación de series por valoración**         |
+| **R98**     | **Implementar ordenación de series por valoración**         |
 | --------------: | :------------------- |
 | **Descripción** | Implementar ordenación de series por valoración.             |
-| **Prioridad**   | Mínimo           |
+| **Prioridad**   | Importante           |
 | **Tipo**        | Funcional                |
 | **Complejidad** | Difícil         |
 | **Entrega**     | v3             |
 
 
-| **R87**     | **Implementar ordenación de peliculas por valoración**         |
+| **R99**     | **Implementar ordenación de peliculas por valoración**         |
 | --------------: | :------------------- |
 | **Descripción** | Implementar ordenación de peliculas por valoración.             |
-| **Prioridad**   | Mínimo           |
+| **Prioridad**   | Importante           |
 | **Tipo**        | Funcional                |
 | **Complejidad** | Difícil         |
 | **Entrega**     | v3             |
 
 
-| **R88**     | **Crear un usuario con invitación Premium**         |
+| **R100**     | **Crear un usuario con invitación Premium**         |
 | --------------: | :------------------- |
 | **Descripción** | Comienzo de la tecnologia de diferenciación por roles de usuarios. Los usuarios premium tendran acceso a peliculas exclusivas.             |
 | **Prioridad**   | Opcional           |
@@ -793,7 +901,7 @@
 | **Entrega**     | v3             |
 
 
-| **R89**     | **Dar Premium a un usuario ya registrado**         |
+| **R101**     | **Dar Premium a un usuario ya registrado**         |
 | --------------: | :------------------- |
 | **Descripción** | Dar Premium a un usuario ya registrado.             |
 | **Prioridad**   | Opcional           |
@@ -802,7 +910,7 @@
 | **Entrega**     | v3             |
 
 
-| **R90**     | **Quitar Premium a un usuario registrado**         |
+| **R102**     | **Quitar Premium a un usuario registrado**         |
 | --------------: | :------------------- |
 | **Descripción** | Quitar Premium a un usuario registrado.             |
 | **Prioridad**   | Opcional           |
@@ -811,25 +919,25 @@
 | **Entrega**     | v3             |
 
 
-| **R91**     | **Implementar peliculas Premium**         |
+| **R103**     | **Implementar peliculas Premium**         |
 | --------------: | :------------------- |
-| **Descripción** | Son peliculas que solo las cuentas Premium pueden visualizar.             |
+| **Descripción** | Son peliculas que solo las cuentas Premium pueden descargar.             |
 | **Prioridad**   | Opcional           |
 | **Tipo**        | Funcional                |
 | **Complejidad** | Difícil         |
 | **Entrega**     | v3             |
 
 
-| **R92**     | **Implementar series Premium**         |
+| **R104**     | **Implementar series Premium**         |
 | --------------: | :------------------- |
-| **Descripción** | Son series que solo las cuentas Premium pueden visualizar.             |
+| **Descripción** | Son series que solo las cuentas Premium pueden descargar.             |
 | **Prioridad**   | Opcional           |
 | **Tipo**        | Funcional                |
 | **Complejidad** | Difícil         |
 | **Entrega**     | v3             |
 
 
-| **R93**     | **Implementar valoraciones destacadas**         |
+| **R105**     | **Implementar valoraciones destacadas**         |
 | --------------: | :------------------- |
 | **Descripción** | Son las valoraciones que tienen los usuarios Premium.             |
 | **Prioridad**   | Opcional           |
@@ -838,7 +946,7 @@
 | **Entrega**     | v3             |
 
 
-| **R94**     | **Implementar icono Premium a usuarios Premium**         |
+| **R106**     | **Implementar icono Premium a usuarios Premium**         |
 | --------------: | :------------------- |
 | **Descripción** | Los usuarios Premium tienen una pequeña medalla y la opcion de poner como thumbnail un gif.             |
 | **Prioridad**   | Opcional           |
@@ -890,59 +998,71 @@
 | (**R36**) Varios navegadores | Mínimo | Técnico | Fácil | v1 |
 | (**R37**) Despliegue en un Host | Mínimo | Técnico | Fácil | v1 |
 | (**R38**) Despliegue en un servidor local | Mínimo | Técnico | Fácil | v1 |
-| (**R39**) Crear base de datos | Importante | Técnico | Fácil | v1 |
+| (**R39**) Crear base de datos | Importante | Información | Fácil | v1 |
 | (**R40**) Añadir una categoria | Importante | Funcional | Fácil | v1 |
 | (**R41**) Modificar una categoria | Importante | Funcional | Fácil | v1 |
-| (**R42**) Eliminar una categoria | Mínimo | Funcional | Media | v1 |
+| (**R42**) Eliminar una categoria | Importante | Funcional | Media | v1 |
 | (**R43**) Añadir un participante | Importante | Funcional | Fácil | v1 |
 | (**R44**) Modificar un participante | Importante | Funcional | Fácil | v1 |
-| (**R45**) Eliminar un participante | Mínimo | Funcional | Media | v1 |
+| (**R45**) Eliminar un participante | Importante | Funcional | Media | v1 |
 | (**R46**) Añadir una serie | Importante | Funcional | Fácil | v1 |
 | (**R47**) Modificar una serie | Importante | Funcional | Fácil | v1 |
-| (**R48**) Eliminar una serie | Mínimo | Funcional | Fácil | v1 |
+| (**R48**) Eliminar una serie | Importante | Funcional | Fácil | v1 |
 | (**R49**) Añadir un capitulo a una serie | Importante | Funcional | Fácil | v1 |
 | (**R50**) Modificar un capitulo de una serie | Importante | Funcional | Fácil | v1 |
-| (**R51**) Eliminar un capitulo de una serie | Mínimo | Funcional | Fácil | v1 |
+| (**R51**) Eliminar un capitulo de una serie | Importante | Funcional | Fácil | v1 |
 | (**R52**) Añadir una pelicula | Importante | Funcional | Fácil | v1 |
 | (**R53**) Modificar una pelicula | Importante | Funcional | Fácil | v1 |
-| (**R54**) Eliminar una pelicula | Mínimo | Funcional | Fácil | v1 |
+| (**R54**) Eliminar una pelicula | Importante | Funcional | Fácil | v1 |
 | (**R55**) Añadir un participante a una serie | Importante | Funcional | Fácil | v1 |
 | (**R56**) Añadir un participante a una pelicula | Importante | Funcional | Fácil | v1 |
-| (**R57**) Eliminar un participante de una serie | Mínimo | Funcional | Fácil | v1 |
-| (**R58**) Eliminar un participante de una pelicula | Mínimo | Funcional | Fácil | v1 |
+| (**R57**) Eliminar un participante de una serie | Importante | Funcional | Fácil | v1 |
+| (**R58**) Eliminar un participante de una pelicula | Importante | Funcional | Fácil | v1 |
 | (**R59**) Buscar una serie | Importante | Funcional | Media | v1 |
-| (**R60**) Ordenar series | Mínimo | Funcional | Media | v1 |
+| (**R60**) Ordenar series | Importante | Funcional | Media | v1 |
 | (**R61**) Buscar una pelicula | Importante | Funcional | Media | v1 |
-| (**R62**) Ordenar peliculas | Mínimo | Funcional | Media | v1 |
+| (**R62**) Ordenar peliculas | Importante | Funcional | Media | v1 |
 | (**R63**) Registrarse como usuario sin invitación | Importante | Funcional | Fácil | v1 |
-| (**R64**) Eliminar a un usuario | Mínimo | Funcional | Fácil | v1 |
+| (**R64**) Eliminar a un usuario | Importante | Funcional | Fácil | v1 |
 | (**R65**) Loguearse | Importante | Funcional | Fácil | v1 |
 | (**R66**) Desloguearse | Importante | Funcional | Fácil | v1 |
 | (**R67**) Implementar guardado de archivos en la nube | Importante | Técnico | Difícil | v1 |
-| (**R68**) Ver una serie | Importante | Funcional | Media | v2 |
-| (**R69**) Ver una pelicula | Importante | Funcional | Media | v2 |
-| (**R70**) Ver un capitulo de una serie | Importante | Funcional | Media | v2 |
-| (**R71**) Marcar como vista una serie | Mínimo | Funcional | Media | v2 |
-| (**R72**) Marcar como vista una pelicula | Mínimo | Funcional | Media | v2 |
-| (**R73**) Marcar como visto un capitulo de una serie | Mínimo | Funcional | Media | v2 |
-| (**R74**) Valorar una serie | Mínimo | Funcional | Media | v2 |
-| (**R75**) Valorar un capitulo de una serie | Mínimo | Funcional | Media | v2 |
-| (**R76**) Valorar una pelicula | Mínimo | Funcional | Media | v2 |
-| (**R77**) Abandonar una serie | Mínimo | Funcional | Media | v2 |
-| (**R78**) Abandonar una pelicula | Mínimo | Funcional | Media | v2 |
-| (**R79**) Implementar restricciones a usuarios registrados | Importante | Funcional | Difícil | v2 |
-| (**R80**) Implementar series ya vistas a usuarios registrados | Importante | Técnico | Difícil | v3 |
-| (**R81**) Implementar capitulos de series ya vistas a usuarios registrados | Importante | Técnico | Difícil | v3 |
-| (**R82**) Implementar peliculas ya vistas a usuarios registrados | Importante | Técnico | Difícil | v3 |
-| (**R83**) Implementar series abandonadas a usuarios registrados | Importante | Técnico | Difícil | v3 |
-| (**R84**) Implementar capitulos de series abandonadas a usuarios registrados | Mínimo | Técnico | Difícil | v3 |
-| (**R85**) Implementar peliculas abandonadas a usuarios registrados | Mínimo | Técnico | Fácil | v3 |
-| (**R86**) Implementar ordenación de series por valoración | Mínimo | Funcional | Difícil | v3 |
-| (**R87**) Implementar ordenación de peliculas por valoración | Mínimo | Funcional | Difícil | v3 |
-| (**R88**) Crear un usuario con invitación Premium | Opcional | Funcional | Difícil | v3 |
-| (**R89**) Dar Premium a un usuario ya registrado | Opcional | Funcional | Difícil | v3 |
-| (**R90**) Quitar Premium a un usuario registrado | Opcional | Funcional | Difícil | v3 |
-| (**R91**) Implementar peliculas Premium | Opcional | Funcional | Difícil | v3 |
-| (**R92**) Implementar series Premium | Opcional | Funcional | Difícil | v3 |
-| (**R93**) Implementar valoraciones destacadas | Opcional | Funcional | Difícil | v3 |
-| (**R94**) Implementar icono Premium a usuarios Premium | Opcional | Funcional | Difícil | v3 |
+| (**R68**) Seguir a un usuario | Importante | Funcional | Media | v2 |
+| (**R69**) Ser seguido por otro usuario | Importante | Funcional | Media | v2 |
+| (**R70**) Dejar de seguir a un usuario | Importante | Funcional | Media | v2 |
+| (**R71**) Bloquear a un usuario | Importante | Funcional | Difícil | v2 |
+| (**R72**) Ver valoraciones recientes de quien sigues | Importante | Funcional | Media | v2 |
+| (**R73**) Comentar valoraciones de otro usuario | Importante | Funcional | Media | v2 |
+| (**R74**) Recomendar una valoración | Importante | Funcional | Media | v2 |
+| (**R75**) Criticar una valoración | Importante | Funcional | Media | v2 |
+| (**R76**) Ver la pagina de valoraciones publicas | Importante | Funcional | Media | v2 |
+| (**R77**) Buscar una valoración por diferentes parametros (creador, pelicula, serie…) | Importante | Funcional | Media | v2 |
+| (**R78**) Ordenar valoraciones por diferentes parametros (likes, fecha de creación, pelicula, etc.) | Importante | Funcional | Media | v2 |
+| (**R79**) Marcarse objetivos | Importante | Funcional | Media | v2 |
+| (**R80**) Descargar una serie | Importante | Funcional | Media | v2 |
+| (**R81**) Descargar una pelicula | Importante | Funcional | Media | v2 |
+| (**R82**) Descargar un capitulo de una serie | Importante | Funcional | Media | v2 |
+| (**R83**) Marcar como vista una serie | Importante | Funcional | Media | v2 |
+| (**R84**) Marcar como vista una pelicula | Importante | Funcional | Media | v2 |
+| (**R85**) Marcar como visto un capitulo de una serie | Importante | Funcional | Media | v2 |
+| (**R86**) Valorar una serie | Importante | Funcional | Media | v2 |
+| (**R87**) Valorar un capitulo de una serie | Importante | Funcional | Media | v2 |
+| (**R88**) Valorar una pelicula | Importante | Funcional | Media | v2 |
+| (**R89**) Abandonar una serie | Importante | Funcional | Media | v2 |
+| (**R90**) Abandonar una pelicula | Importante | Funcional | Media | v2 |
+| (**R91**) Implementar restricciones a usuarios registrados | Importante | Funcional | Difícil | v2 |
+| (**R92**) Implementar series ya vistas a usuarios registrados | Importante | Técnico | Difícil | v3 |
+| (**R93**) Implementar capitulos de series ya vistas a usuarios registrados | Importante | Técnico | Difícil | v3 |
+| (**R94**) Implementar peliculas ya vistas a usuarios registrados | Importante | Técnico | Difícil | v3 |
+| (**R95**) Implementar series abandonadas a usuarios registrados | Importante | Técnico | Difícil | v3 |
+| (**R96**) Implementar capitulos de series abandonadas a usuarios registrados | Importante | Técnico | Difícil | v3 |
+| (**R97**) Implementar peliculas abandonadas a usuarios registrados | Importante | Técnico | Fácil | v3 |
+| (**R98**) Implementar ordenación de series por valoración | Importante | Funcional | Difícil | v3 |
+| (**R99**) Implementar ordenación de peliculas por valoración | Importante | Funcional | Difícil | v3 |
+| (**R100**) Crear un usuario con invitación Premium | Opcional | Funcional | Difícil | v3 |
+| (**R101**) Dar Premium a un usuario ya registrado | Opcional | Funcional | Difícil | v3 |
+| (**R102**) Quitar Premium a un usuario registrado | Opcional | Funcional | Difícil | v3 |
+| (**R103**) Implementar peliculas Premium | Opcional | Funcional | Difícil | v3 |
+| (**R104**) Implementar series Premium | Opcional | Funcional | Difícil | v3 |
+| (**R105**) Implementar valoraciones destacadas | Opcional | Funcional | Difícil | v3 |
+| (**R106**) Implementar icono Premium a usuarios Premium | Opcional | Funcional | Difícil | v3 |
